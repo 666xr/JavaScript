@@ -1,0 +1,60 @@
+.promo {
+    position: relative;
+    background: url('../img/promo.png') center (center/cover) no-repeat;
+    min-height: 680px;
+    &__nav {
+        position: relative;
+        display: flex;
+    }
+    &__block {
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo {
+    }
+    &__header {
+        display: flex;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16.71px;
+        list-style-type: none;
+        margin-bottom: 0;
+        padding-left: 0;
+        margin-left: 55px;
+    }
+    &__item {
+        margin-right: 27px;
+        &:nth-child(6) {
+            margin-right: 0;
+        }
+        &_main {
+            color: #ec644b;
+        }
+    }
+    &__support {
+        margin-left: 50px;
+    }
+    &__question {
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    &__phone {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+
