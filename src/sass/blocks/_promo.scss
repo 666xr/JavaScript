@@ -46,14 +46,54 @@
         font-family: Roboto;
         font-size: 14px;
         font-weight: 300;
-        line-height: 24px;
     }
     &__phone {
+        text-align: right;
         color: #ffffff;
         font-family: Roboto;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 700;
+    }
+    &__callback {
+        width: 160px;
+        height: 45px;
+        background-color: #ec644b;
+        border-radius: 50px 50px 50px 50px;
+        border: none;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 19px;
+        padding: 0;
+    }
+    &__firsttitle {
+        text-align: center;
+        margin-top: 9px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
         line-height: 24px;
+    }
+    &__title {
+        text-align: center;
+        color: #ec644b;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 72px;
+        margin: 0;
+    }
+    &__subtitle {
+        text-align: center;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 42px;
+        margin: 0;
     }
 }
 
