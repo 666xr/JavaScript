@@ -206,3 +206,74 @@ console.log(numberOfFilms);
             }
       }
 
+
+
+// functions (Declaration)
+// Функия работает до того как она была вызвана (var)
+// код  начинает проверку документа(script.js) с "типами" var, function decloration, далее проходится заного по (оставшемуся) коду .
+// function name() { code }
+
+let num = 100;
+
+function showFirstMessage(text) {
+    console.log(text);
+    console.log(num); // Функция замыкания это все внешние переменные которые ей доступны
+}
+
+showFirstMessage("Hello world!");
+console.log(num);
+
+
+/* console.log(calc(4, 4));
+console.log(calc(3, 7));
+console.log(calc(6, 7));
+
+function calc(a, b) {
+    return (a + b); // После return код не проверяется
+    console.log('dada'); //Код перестанет выполняться
+} */
+
+
+
+function ret() {
+    let num = 50;
+
+    //
+
+    return num; // Возвращает локальное значение на глобальное
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+
+// function (expression)
+// let name = function() { code }; (Ставим в конце ";" так как есть переменная)
+// Нельзя вызывать до обьявления
+
+const logger = function() {
+    console.log("Hello!");
+};
+
+logger();
+
+
+// Стрелочные функции ()=> es6 
+// не имеет своего контекста (this) // -- пока это непонятно
+// (есть свои особенности, и нельзя использовать везде)
+
+const calc = (a, b) => a + b;
+// const calc = (a, b) => { return a + b};
+
+
+//  17 методы и свойства
+
+const str = "TeSt";
+//console.log(str[2]);
+console.log(str.toUpperCase());
+console.log(str);
+console.log(str.toLowerCase());
+
+
+const arr = [1, 2, 4];
+console.log(arr.length);

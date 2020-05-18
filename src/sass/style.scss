@@ -1,13 +1,21 @@
 @import 'base/variables';
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Lato Hairline';
+    font-family: 'Playfair Display SC';
 }
 
 .container {
     position: relative;
-    max-width: 1141px;
+    max-width: 1172px;
     margin: 0 auto;
+    &_mod {
+        min-width: 1205px;
+    }
 }
 
+
+
+@import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/looks';

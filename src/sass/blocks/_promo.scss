@@ -1,100 +1,28 @@
 .promo {
     position: relative;
+    min-height: 700px;
     background: url('../img/promo.png') center (center/cover) no-repeat;
-    min-height: 680px;
-    &__nav {
-        position: relative;
-        display: flex;
-    }
-    &__block {
-        margin-top: 23px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    &__logo {
-    }
-    &__header {
-        display: flex;
-        color: #ffffff;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 16.71px;
-        list-style-type: none;
-        margin-bottom: 0;
-        padding-left: 0;
-        margin-left: 55px;
-    }
-    &__item {
-        margin-right: 27px;
-        &:nth-child(6) {
-            margin-right: 0;
-        }
-        &_main {
-            color: #ec644b;
-        }
-    }
-    &__support {
-        margin-left: 50px;
-    }
-    &__question {
-        text-align: right;
-        justify-content: center;
-        align-items: center;
-        color: #ffffff;
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 300;
-    }
-    &__phone {
-        text-align: right;
-        color: #ffffff;
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    &__callback {
-        width: 160px;
-        height: 45px;
-        background-color: #ec644b;
-        border-radius: 50px 50px 50px 50px;
-        border: none;
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 400;
-        text-align: center;
-        text-transform: uppercase;
-        margin-left: 19px;
-        padding: 0;
-    }
-    &__firsttitle {
-        text-align: center;
-        margin-top: 9px;
-        color: #ffffff;
-        font-family: Roboto;
-        font-size: 24px;
-        font-weight: 300;
-        line-height: 24px;
-    }
     &__title {
-        text-align: center;
-        color: #ec644b;
-        font-size: 72px;
-        font-weight: 700;
-        text-transform: uppercase;
-        line-height: 72px;
-        margin: 0;
-    }
-    &__subtitle {
-        text-align: center;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
         color: #ffffff;
-        font-size: 42px;
+        font-family: "Playfair Display";
+        font-size: 100px;
         font-weight: 400;
-        text-transform: uppercase;
-        line-height: 42px;
-        margin: 0;
+        line-height: 80px;
+        margin-top: 311px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__icons {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 591px 0 20px 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
-
-
